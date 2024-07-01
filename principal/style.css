@@ -1,74 +1,210 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 /* ICONS */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 
-body{
-    margin: 0;
+body {
+  margin: 0;
+  font-family: "montserrat", sans-serif;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
-    list-style: none;
-    padding: 0;
+ul {
+  list-style: none;
+  padding: 0;
 }
-h1, h2, h3, h4, h5 ,h6, p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* HEADER */
-header{
-
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #363636;
+  position: fixed;
+  z-index: 2;
 }
-.navbar{
-
+.navbar {
+  margin: 0 20px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6b6b6b;
+  box-shadow: 10px -50px 0px 50px #363636;
+  box-sizing: border-box;
+  background-color: #363636;
 }
-.h2-navbar{
-
+.h2-navbar {
+  color: #e2e2e2;
+  font-family: "Playwrite IS", cursive;
 }
-.nav-section{
-
+.nav-section {
+  display: none;
 }
-.nav-section a:hover{
-    
+.nav-section a {
 }
-.nav-links{
-
+.nav-section a:hover {
 }
-.nav-links a:hover{
-
+.nav-links {
+    position: absolute;
+    right: 60px;
+    display: flex;
 }
-.icons-navbar{
-
+.nav-links a{
+    padding: 0 10px;
+    color: #b9b9b9;
 }
-.icons-navbar:hover{
-
+.nav-links a:hover {
+    color: #34b7a7;
 }
-.nav-section-mobile{
-
+.icons-navbar {
 }
-.list{
-
+.icons-navbar:hover {
 }
-.lines{
-
+.nav-section-mobile {
 }
-.line{
-
+.list {
+  position: relative;
+  display: block;
+  height: 32px;
+  width: 32px;
+  z-index: 4;
+  opacity: 0;
+  cursor: pointer;
+  
 }
-.line1{
-
+.lines {
+  display: block;
+  height: 22px;
+  width: 28px;
+  top: 19px;
+  right: 25px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
 }
-.line2{
-
+.line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #b9b9b9;
+  z-index: 3;
 }
-.line3{
-
+.line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
 }
-.toggle{
+.line2 {
+  transition: transform 0.2s ease-in-out;
+}
+.line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
 
+.toggle {
+  background-color: #363636;
+  height: 200px;
+  left: 0;
+  right: 0;
+  transform: translateY(-200%);
+  padding: 0 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  transition: transform 0.5s ease-in-out;
+  list-style: none;
+  position: absolute;
+  z-index: -1;
+}
+.toggle a {
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #b9b9b9;
+  z-index: 1;
+}
+.toggle a:hover {
+  color: #34b7a7;
+}
+.list:checked ~ .toggle{
+  transform: translateY(5%);
+}
+.list:checked ~ .lines .line1{
+    transform: rotate(45deg);
+}
+.list:checked ~ .lines .line2{
+    transform: scaleY(0);
+}
+.list:checked ~ .lines .line3{
+    transform: rotate(-45deg);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  header {
+  }
+  .navbar {
+  }
+  .h2-navbar {
+  }
+  .nav-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .nav-section a {
+    color: #b9b9b9;
+    padding: 10px 5px;
+  }
+  .nav-section a:hover {
+    color: #34b7a7;
+    transition: 0.5s;
+  }
+  .nav-links {
+  }
+  .nav-links a:hover {
+  }
+  .icons-navbar {
+  }
+  .icons-navbar:hover {
+  }
+  .nav-section-mobile {
+    display: none;
+  }
+  .list {
+  }
+  .lines {
+  }
+  .line {
+  }
+  .line1 {
+  }
+  .line2 {
+  }
+  .line3 {
+  }
+  .toggle {
+  }
 }
