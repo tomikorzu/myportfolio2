@@ -1,0 +1,45 @@
+#home {
+  height: 100vh;
+  background: url(../img/yo.png) center / cover fixed;
+  z-index: -3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.h1-home {
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+}
+.p-home {
+  color: #b6fff5e7;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  padding: 5px 0 0 0px;
+}
+.a-home {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #34b7a7;
+  border-radius: 50px;
+  margin: 10px 0 0 0px;
+}
+.a-home:hover {
+  transition: 0.5s;
+  background-color: #2adbc7;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .h1-home {
+    font-size: 36px;
+  }
+  .p-home {
+    font-size: 22px;
+  }
+}
