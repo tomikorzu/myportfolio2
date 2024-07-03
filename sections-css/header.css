@@ -34,6 +34,7 @@ header {
 }
 .nav-links a:hover {
   color: #34b7a7;
+  transition: .4s;
 }
 .list {
   position: relative;
