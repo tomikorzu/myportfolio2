@@ -225,10 +225,11 @@
   }
   .personal-info {
     max-width: 32%;
+    
   }
   .personal-data {
     padding: 80px 0px 20px;
-    gap: 5px;
+    gap: 15px;
     max-width: 200px;
   }
   .personal-div {
@@ -246,22 +247,26 @@
   }
   .languages {
     max-width: 200px;
+    padding: 30px 20px;
   }
   .lang-skill-container {
     font-size: 14px;
   }
   .lang-skill-porcent {
+    gap: 10px;
   }
   .lang-skill {
   }
   .skills {
     max-width: 200px;
+    padding: 30px 20px;
   }
   .h2-languages-skills {
     font-size: 20px;
   }
   .me {
     max-width: 200px;
+    padding: 20px;
   }
   .me-links-a {
     padding: 9px;
@@ -271,6 +276,7 @@
   .download-cv {
     max-width: 200px;
     padding:10px 8px;
+    margin: 20px auto;
   }
   .download-cv:hover {
   }
