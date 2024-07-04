@@ -282,45 +282,66 @@
     height: 24px;
   }
   .about-education-experience {
+
   }
   .about-me {
+    max-width: 100%;
+    padding: 50px 20px 0;
   }
   .h2-about {
+    font-size: 24px;
   }
   .p-about {
   }
   .h3-about {
+    font-size: 18px;
   }
   .education,
   .experience {
+    max-width: 440px;
+    padding: 0px 60px 0 20px;
+    margin: 0;
   }
   .education-container,
   .experience-container {
   }
   .education-container-header,
   .experience-container-header {
+    padding-top: 5px;
   }
   .education-h3-period,
   .experience-h3-period {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .period {
+    padding-top: 12px;
+    font-size: 13px;
+    font-weight: 500;
   }
   .h4-about {
+    font-size: 16px;
   }
   .education-container-content,
   .experience-container-content {
   }
   .h5-about {
+    font-size: 14px;
   }
   .education-tecnologies-ul,
   .experience-tecnologies-ul {
+    gap: 5px;
+    margin-top: 5px;
   }
   .education-tecnologies-span,
   .experience-tasks-span,
   .experience-tecnologies-span {
+    font-size: 13px;
   }
   .education-img,
   .experience-img {
+    right: 35px;
   }
   .education-img img {
   }
