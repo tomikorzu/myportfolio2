@@ -181,8 +181,9 @@
 .education-tecnologies-ul,
 .experience-tecnologies-ul {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .education-img,
 .experience-img {
@@ -224,13 +225,14 @@
     align-items: start;
   }
   .personal-info {
-    max-width: 32%;
-    
+    max-width: 240px;
+    overflow: auto;
+    height: 95vh;
   }
   .personal-data {
-    padding: 80px 0px 20px;
-    gap: 15px;
+    padding: 55px 0px 00px;
     max-width: 200px;
+    
   }
   .personal-div {
     padding: 15px 25px;
@@ -243,14 +245,14 @@
   }
   .personal-content {
     padding: 0;
-    font-size: 12px;
+    font-size: 10px;
   }
   .languages {
     max-width: 200px;
-    padding: 30px 20px;
+    padding: 0px 20px 10px;
   }
   .lang-skill-container {
-    font-size: 14px;
+    font-size: 10px;
   }
   .lang-skill-porcent {
     gap: 10px;
@@ -259,111 +261,128 @@
   }
   .skills {
     max-width: 200px;
-    padding: 30px 20px;
+    padding: 15px 20px;
   }
   .h2-languages-skills {
-    font-size: 20px;
+    font-size: 14px;
   }
   .me {
     max-width: 200px;
     padding: 20px;
   }
+  .me-links-ul{
+    gap: 10px;
+  }
   .me-links-a {
-    padding: 9px;
+    padding: 10px;
     background-color: #ffffff20;
     border-radius: 100%;
   }
   .download-cv {
     max-width: 200px;
     padding:10px 8px;
-    margin: 20px auto;
+    margin: 10px auto 20px;
   }
   .download-cv:hover {
   }
   .download-h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
   .download-icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
   .about-education-experience {
+    overflow-y: auto;
+    height: 95vh;
 
   }
   .about-me {
     max-width: 100%;
-    padding: 50px 20px 0;
+    padding: 55px 20px 0;
   }
   .h2-about {
-    font-size: 24px;
+    font-size: 20px;
+    padding-top: 0px;
   }
   .p-about {
+    font-size: 11px;
   }
   .h3-about {
     font-size: 18px;
   }
   .education,
   .experience {
-    max-width: 440px;
-    padding: 0px 60px 0 20px;
+    max-width: 100%;
     margin: 0;
   }
   .education-container,
   .experience-container {
+    margin-top: 10px;
+    height: 90%;
   }
   .education-container-header,
   .experience-container-header {
-    padding-top: 5px;
+    padding: 0 25px 10px ;
+    position: relative  ;
   }
   .education-h3-period,
   .experience-h3-period {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 0;
   }
   .period {
-    padding-top: 12px;
-    font-size: 13px;
+    padding-top: 5px;
+    font-size: 11px;
     font-weight: 500;
   }
   .h4-about {
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 5px;
   }
   .education-container-content,
   .experience-container-content {
+    padding: 10px 25px 15px;
   }
   .h5-about {
-    font-size: 14px;
+    font-size: 16px;
   }
   .education-tecnologies-ul,
   .experience-tecnologies-ul {
-    gap: 5px;
+    gap: 3px;
     margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 10px;
+  }
+  .experience-tasks-ul{
+    margin-bottom: 0;
   }
   .education-tecnologies-span,
   .experience-tasks-span,
   .experience-tecnologies-span {
-    font-size: 13px;
+    font-size: 12px;
   }
   .education-img,
   .experience-img {
-    right: 35px;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 17px;
   }
-  .education-img img {
+  .education-img img, .experience-img img {
+    width: 25px;
+    height: 25px;
   }
   .experience-tasks-ul {
+    margin-top: 5px;
   }
   .experience-img {
-  }
-  .experience-img img {
-  }
+}
 }
 
 @media (min-width: 1024px) {
   #about {
   }
   .personal-info {
-    width: 40%;
   }
   .personal-data {
   }
