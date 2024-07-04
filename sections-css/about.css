@@ -1,377 +1,412 @@
-#about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.personal-info{
-    background-color: #4e8885;
-    width: 100%;
-    color: #f5f5f5;
+.personal-info {
+  background-color: #4e8885;
+  width: 100%;
+  color: #f5f5f5;
 }
-.personal-data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 20px 20px;
-    gap: 5px;
-    max-width: 375px;
-    margin: auto;
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px 20px;
+  gap: 5px;
+  max-width: 375px;
+  margin: auto;
 }
-.personal-div{
-    display: flex;
-    justify-content: start;
-    background-color: #ffffff20;
-    padding: 15px 30px;
-    width: 80%;
-    max-width: 260px;
-    border-radius: 10px;
+.personal-div {
+  display: flex;
+  justify-content: start;
+  background-color: #ffffff20;
+  padding: 15px 30px;
+  width: 80%;
+  max-width: 260px;
+  border-radius: 10px;
 }
-.personal-icons{
-    display: flex;
-    align-items: center;
+.personal-icons {
+  display: flex;
+  align-items: center;
 }
-.personal-content{
-    padding: 0 30px;
+.personal-content {
+  padding: 0 30px;
 }
-.languages{
-    padding: 20px;
-    max-width: 320px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.languages {
+  padding: 20px;
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.lang-skill-container{
-    display: flex;
-    gap:40px;
+.lang-skill-container {
+  display: flex;
+  gap: 40px;
 }
-.lang-skill-porcent{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    
+.lang-skill-porcent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.lang-skill{
-    display: flex;
+.lang-skill {
+  display: flex;
 }
-.skills{
-    padding: 20px;
-    max-width: 320px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
+.skills {
+  padding: 20px;
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.me{
-    padding: 35px 20px 20px;
-    max-width: 320px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.me {
+  padding: 35px 20px 20px;
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.me-links-ul{
-    display: flex;
-    gap: 20px;
-    margin: auto;
+.me-links-ul {
+  display: flex;
+  gap: 20px;
+  margin: auto;
 }
-.me-links-a{
-    padding: 15px;
-    background-color: #ffffff20;
-    border-radius: 100%;
+.me-links-a {
+  padding: 15px;
+  background-color: #ffffff20;
+  border-radius: 100%;
 }
-.me-links-a:hover{
-    background-color: #ffffff40;
-    transition: .4s;
-    box-shadow: 0 0 5px 4px #fff;
+.me-links-a:hover {
+  background-color: #ffffff40;
+  transition: 0.4s;
+  box-shadow: 0 0 5px 4px #fff;
 }
-.me-links-icons{
-    color: #fff;
+.me-links-icons {
+  color: #fff;
 }
-.download-cv{
-    background-color: #ffffff20;
-    padding: 10px 50px;
-    max-width: 200px;
-    color: #fff;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
-    align-items: center;
+.download-cv {
+  background-color: #ffffff20;
+  padding: 10px 50px;
+  max-width: 200px;
+  color: #fff;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  align-items: center;
 }
-.download-cv:hover{
-    background-color: #ffffff40;
-    transition: .4s;
-    transform: translateY(-2px);
-    box-shadow: 0 0 10px 4px #fff;
+.download-cv:hover {
+  background-color: #ffffff40;
+  transition: 0.4s;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px 4px #fff;
 }
-.download-h4{
-    margin: 0 10px 0 0;
+.download-h4 {
+  margin: 0 10px 0 0;
 }
-.download-icon{
-    width: 30px;
-    height: 30px;
+.download-icon {
+  width: 30px;
+  height: 30px;
 }
-.about-education-experience{
-    color: #00000090;
-    width: 100%;
-    background-color: #cde7eb80;
-    
+.about-education-experience {
+  color: #00000090;
+  width: 100%;
+  background-color: #cde7eb80;
 }
-.about-me{
-    margin: auto;
-    max-width: 320px;
+.about-me {
+  margin: auto;
+  max-width: 320px;
 }
-.h2-about{
-    padding: 30px 0 0 0;
-    font-size: 28px;
-    color: #003e37;
+.h2-about {
+  padding: 30px 0 0 0;
+  font-size: 28px;
+  color: #003e37;
 }
-.p-about{
-    padding: 10px 0;
-    font-weight: 400;
+.p-about {
+  padding: 10px 0;
+  font-weight: 400;
 }
-.h3-about{
-    color: #003e37;
-    font-size: 22px;
-    padding: 10px 0 0 0;
+.h3-about {
+  color: #003e37;
+  font-size: 22px;
+  padding: 10px 0 0 0;
 }
-.education, .experience{
-    margin: auto;
-    max-width: 320px;
-    padding-bottom: 30px;
+.education,
+.experience {
+  margin: auto;
+  max-width: 320px;
+  padding-bottom: 30px;
 }
-.education-container, .experience-container{
-    margin: 20px 0 0 0;
-    box-shadow: 0 0 10px 5px #00000020;
-    border-radius: 10px;
+.education-container,
+.experience-container {
+  margin: 20px 0 0 0;
+  box-shadow: 0 0 10px 5px #00000020;
+  border-radius: 10px;
 }
-.education-container-header, .experience-container-header{
-    background-color: rgba(14, 107, 168, 0.467);
-    padding: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.education-container-header,
+.experience-container-header {
+  background-color: rgba(14, 107, 168, 0.467);
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.education-h3-period, .experience-h3-period{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.education-h3-period,
+.experience-h3-period {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.period{
-
+.period {
 }
-.h4-about{
-    color: #003e37;
-    font-size: 20px;
-    padding: 10px 0 0 0;
+.h4-about {
+  color: #003e37;
+  font-size: 20px;
+  padding: 10px 0 0 0;
 }
-.education-container-content, .experience-container-content{
-    padding: 15px;
-    color: #131212;
-    position: relative;
+.education-container-content,
+.experience-container-content {
+  padding: 15px;
+  color: #131212;
+  position: relative;
 }
-.h5-about{
-    font-size: 18px;
+.h5-about {
+  font-size: 18px;
 }
-.education-tecnologies-ul, .experience-tecnologies-ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.education-tecnologies-ul,
+.experience-tecnologies-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.education-tecnologies-span, .experience-tasks-span{
-
+.education-tecnologies-span,
+.experience-tasks-span,
+.experience-tecnologies-span {
 }
-.education-img, .experience-img{
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-45%);
-    width: 150px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.education-img,
+.experience-img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-45%);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.education-img img{
-    width: 140px;
-    height: 140px;
+.education-img img {
+  width: 140px;
+  height: 140px;
 }
-.experience-tasks-ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-weight: 600;
-    color: #2e2e2e;
-    padding: 0 0 10px 0;
+.experience-tasks-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+  color: #2e2e2e;
+  padding: 0 0 10px 0;
 }
-.experience-img{
-    top: 77%;
+.experience-img {
+  top: 77%;
 }
-.experience-img img{
-    width: 110px;
-    height: 110px;
-    border-radius: 100%;
+.experience-img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
 }
 
 @media (min-width: 768px) {
-    #about{
-        display: flex;
-        flex-direction: row;
-    }
-    .personal-info{
-        width: 40%;
-    }
-    .personal-data{
-    
-    }
-    .personal-div{
-    
-    }
-    .personal-icons{
-    
-    }
-    .personal-content{
-    
-    }
-    .languages{
-    
-    }
-    .lang-skill-container{
-    
-    }
-    .lang-skill-porcent{
-    
-    }
-    .lang-skill{
-    
-    }
-    .porcent{
-    
-    }
-    .porcent-bar{
-    
-    }
-    .english-bar{
-    
-    }
-    .html-bar{
-    
-    }
-    .css-bar{
-    
-    }
-    .git-bar{
-    
-    }
-    .me{
-    
-    }
-    .me-links-ul{
-    
-    }
-    .me-links-a{
-    
-    }
-    .me-links-icons{
-    
-    }
-    .download-cv{
-    
-    }
-    .download-h4{
-    
-    }
-    .download-icon{
-    
-    }
-    .about-education-experience{
-    
-    }
-    .about-me{
-    
-    }
+  #about {
+    display: flex;
+    flex-direction: row;
+  }
+  .personal-info {
+    width: 30%;
+  }
+  .personal-data {
+  }
+  .personal-div {
+  }
+  .personal-icons {
+  }
+  .personal-content {
+  }
+  .languages {
+  }
+  .lang-skill-container {
+  }
+  .lang-skill-porcent {
+  }
+  .lang-skill {
+  }
+  .skills {
+  }
+  .me {
+  }
+  .me-links-ul {
+  }
+  .me-links-a {
+  }
+  .me-links-a:hover {
+  }
+  .me-links-icons {
+  }
+  .download-cv {
+  }
+  .download-cv:hover {
+  }
+  .download-h4 {
+  }
+  .download-icon {
+  }
+  .about-education-experience {
+  }
+  .about-me {
+  }
+  .h2-about {
+  }
+  .p-about {
+  }
+  .h3-about {
+  }
+  .education,
+  .experience {
+  }
+  .education-container,
+  .experience-container {
+  }
+  .education-container-header,
+  .experience-container-header {
+  }
+  .education-h3-period,
+  .experience-h3-period {
+  }
+  .period {
+  }
+  .h4-about {
+  }
+  .education-container-content,
+  .experience-container-content {
+  }
+  .h5-about {
+  }
+  .education-tecnologies-ul,
+  .experience-tecnologies-ul {
+  }
+  .education-tecnologies-span,
+  .experience-tasks-span,
+  .experience-tecnologies-span {
+  }
+  .education-img,
+  .experience-img {
+  }
+  .education-img img {
+  }
+  .experience-tasks-ul {
+  }
+  .experience-img {
+  }
+  .experience-img img {
+  }
 }
 
 @media (min-width: 1024px) {
-    #about{
-    
-    }
-    .personal-info{
-    
-    }
-    .personal-data{
-    
-    }
-    .personal-div{
-    
-    }
-    .personal-icons{
-    
-    }
-    .personal-content{
-    
-    }
-    .languages{
-    
-    }
-    .lang-skill-container{
-    
-    }
-    .lang-skill-porcent{
-    
-    }
-    .lang-skill{
-    
-    }
-    .porcent{
-    
-    }
-    .porcent-bar{
-    
-    }
-    .english-bar{
-    
-    }
-    .html-bar{
-    
-    }
-    .css-bar{
-    
-    }
-    .git-bar{
-    
-    }
-    .me{
-    
-    }
-    .me-links-ul{
-    
-    }
-    .me-links-a{
-    
-    }
-    .me-links-icons{
-    
-    }
-    .download-cv{
-    
-    }
-    .download-h4{
-    
-    }
-    .download-icon{
-    
-    }
-    .about-education-experience{
-    
-    }
-    .about-me{
-    
-    }
+  #about {
+  }
+  .personal-info {
+    width: 40%;
+  }
+  .personal-data {
+  }
+  .personal-div {
+  }
+  .personal-icons {
+  }
+  .personal-content {
+  }
+  .languages {
+  }
+  .lang-skill-container {
+  }
+  .lang-skill-porcent {
+  }
+  .lang-skill {
+  }
+  .skills {
+  }
+  .me {
+  }
+  .me-links-ul {
+  }
+  .me-links-a {
+  }
+  .me-links-a:hover {
+  }
+  .me-links-icons {
+  }
+  .download-cv {
+  }
+  .download-cv:hover {
+  }
+  .download-h4 {
+  }
+  .download-icon {
+  }
+  .about-education-experience {
+  }
+  .about-me {
+  }
+  .h2-about {
+  }
+  .p-about {
+  }
+  .h3-about {
+  }
+  .education,
+  .experience {
+  }
+  .education-container,
+  .experience-container {
+  }
+  .education-container-header,
+  .experience-container-header {
+  }
+  .education-h3-period,
+  .experience-h3-period {
+  }
+  .period {
+  }
+  .h4-about {
+  }
+  .education-container-content,
+  .experience-container-content {
+  }
+  .h5-about {
+  }
+  .education-tecnologies-ul,
+  .experience-tecnologies-ul {
+  }
+  .education-tecnologies-span,
+  .experience-tasks-span,
+  .experience-tecnologies-span {
+  }
+  .education-img,
+  .experience-img {
+  }
+  .education-img img {
+  }
+  .experience-tasks-ul {
+  }
+  .experience-img {
+  }
+  .experience-img img {
+  }
 }
