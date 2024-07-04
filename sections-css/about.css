@@ -164,8 +164,6 @@
   flex-direction: column;
   gap: 5px;
 }
-.period {
-}
 .h4-about {
   color: #003e37;
   font-size: 20px;
@@ -185,10 +183,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-.education-tecnologies-span,
-.experience-tasks-span,
-.experience-tecnologies-span {
 }
 .education-img,
 .experience-img {
@@ -227,45 +221,65 @@
   #about {
     display: flex;
     flex-direction: row;
+    align-items: start;
   }
   .personal-info {
-    width: 30%;
+    max-width: 32%;
   }
   .personal-data {
+    padding: 80px 0px 20px;
+    gap: 5px;
+    max-width: 200px;
   }
   .personal-div {
+    padding: 15px 25px;
+    width: 80%;
+    max-width: 200px;
+    border-radius: 10px;
+    gap: 10px;
   }
   .personal-icons {
   }
   .personal-content {
+    padding: 0;
+    font-size: 12px;
   }
   .languages {
+    max-width: 200px;
   }
   .lang-skill-container {
+    font-size: 14px;
   }
   .lang-skill-porcent {
   }
   .lang-skill {
   }
   .skills {
+    max-width: 200px;
+  }
+  .h2-languages-skills {
+    font-size: 20px;
   }
   .me {
-  }
-  .me-links-ul {
+    max-width: 200px;
   }
   .me-links-a {
-  }
-  .me-links-a:hover {
-  }
-  .me-links-icons {
+    padding: 9px;
+    background-color: #ffffff20;
+    border-radius: 100%;
   }
   .download-cv {
+    max-width: 200px;
+    padding:10px 8px;
   }
   .download-cv:hover {
   }
   .download-h4 {
+    font-size: 13px;
   }
   .download-icon {
+    width: 24px;
+    height: 24px;
   }
   .about-education-experience {
   }
@@ -341,6 +355,8 @@
   .lang-skill {
   }
   .skills {
+  }
+  .h2-languages-skills {
   }
   .me {
   }
