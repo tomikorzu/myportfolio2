@@ -132,7 +132,7 @@
 }
 .p-about {
   padding: 10px 0;
-  font-weight: 400;
+  font-weight: 500;
 }
 .h3-about {
   color: #003e37;
@@ -184,6 +184,7 @@
   flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
+  font-weight: 500;
 }
 .education-img,
 .experience-img {
@@ -205,7 +206,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-weight: 600;
+  font-weight: 500;
   color: #2e2e2e;
   padding: 0 0 10px 0;
 }
@@ -226,8 +227,7 @@
   }
   .personal-info {
     max-width: 240px;
-    overflow: auto;
-    height: 95vh;
+    height: 626px;
   }
   .personal-data {
     padding: 55px 0px 00px;
@@ -241,18 +241,19 @@
     border-radius: 10px;
     gap: 10px;
   }
-  .personal-icons {
+  .fa-xs {
+    font-size: .85rem;
   }
   .personal-content {
     padding: 0;
-    font-size: 10px;
+    font-size: 12px;
   }
   .languages {
     max-width: 200px;
     padding: 0px 20px 10px;
   }
   .lang-skill-container {
-    font-size: 10px;
+    font-size: 12px;
   }
   .lang-skill-porcent {
     gap: 10px;
@@ -264,7 +265,7 @@
     padding: 15px 20px;
   }
   .h2-languages-skills {
-    font-size: 14px;
+    font-size: 16px;
   }
   .me {
     max-width: 200px;
@@ -274,14 +275,18 @@
     gap: 10px;
   }
   .me-links-a {
-    padding: 10px;
+    padding: 12px;
     background-color: #ffffff20;
     border-radius: 100%;
+    display: flex;
+  }
+  .me-links-icons{
+    display: inline-table;
   }
   .download-cv {
     max-width: 200px;
     padding:10px 8px;
-    margin: 10px auto 20px;
+    margin: 0px auto 20px;
   }
   .download-cv:hover {
   }
@@ -294,32 +299,35 @@
   }
   .about-education-experience {
     overflow-y: auto;
-    height: 95vh;
+    height: 626px;
 
   }
   .about-me {
     max-width: 100%;
-    padding: 55px 20px 0;
+    padding: 55px 60px 0;
   }
   .h2-about {
-    font-size: 20px;
-    padding-top: 0px;
+    font-size: 22px;
+    padding-top: 10px;
   }
   .p-about {
-    font-size: 11px;
+    font-size: 14px;
   }
   .h3-about {
-    font-size: 18px;
+    padding-top: 25px;
+    font-size: 20px;
   }
   .education,
   .experience {
     max-width: 100%;
     margin: 0;
+    padding-bottom: 10px;
   }
   .education-container,
   .experience-container {
     margin-top: 10px;
     height: 90%;
+    padding-bottom: 10px;
   }
   .education-container-header,
   .experience-container-header {
@@ -332,16 +340,16 @@
   }
   .period {
     padding-top: 5px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
   }
   .h4-about {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 5px;
   }
   .education-container-content,
   .experience-container-content {
-    padding: 10px 25px 15px;
+    padding: 20px 25px 15px;
   }
   .h5-about {
     font-size: 16px;
@@ -352,9 +360,7 @@
     margin-top: 5px;
     margin-bottom: 0;
     line-height: 10px;
-  }
-  .experience-tasks-ul{
-    margin-bottom: 0;
+    color: #00000090;
   }
   .education-tecnologies-span,
   .experience-tasks-span,
@@ -374,6 +380,8 @@
   }
   .experience-tasks-ul {
     margin-top: 5px;
+    margin-bottom: 0;
+    color: #00000090;
   }
   .experience-img {
 }
