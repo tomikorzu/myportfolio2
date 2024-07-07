@@ -224,13 +224,13 @@
     display: flex;
     flex-direction: row;
     align-items: start;
-  }
+    }
   .personal-info {
     max-width: 240px;
-    height: 626px;
+    height: 550px;
   }
   .personal-data {
-    padding: 55px 0px 00px;
+    padding: 20px 0px 00px;
     max-width: 200px;
     
   }
@@ -246,7 +246,7 @@
   }
   .personal-content {
     padding: 0;
-    font-size: 12px;
+    font-size: 12.5px;
   }
   .languages {
     max-width: 200px;
@@ -299,12 +299,12 @@
   }
   .about-education-experience {
     overflow-y: auto;
-    height: 626px;
+    height: 550px;
 
   }
   .about-me {
-    max-width: 100%;
-    padding: 55px 60px 0;
+    max-width: 500px;
+    padding: 10px 50px 30px;
   }
   .h2-about {
     font-size: 22px;
