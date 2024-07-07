@@ -227,16 +227,16 @@
     position: relative;
     max-width: 1800px;
     margin: auto;
-    }
-    #about::before{
-      content: '';
-      width: 240px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      background-color: #4e8885;
-    }
+  }
+  #about::before {
+    content: "";
+    width: 240px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #4e8885;
+  }
   .personal-info {
     max-width: 240px;
     position: sticky;
@@ -245,7 +245,6 @@
   .personal-data {
     padding: 20px 0px 0px;
     max-width: 200px;
-    
   }
   .personal-div {
     padding: 12px 25px;
@@ -255,7 +254,7 @@
     gap: 10px;
   }
   .fa-xs {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
   .personal-content {
     padding: 0;
@@ -271,8 +270,6 @@
   .lang-skill-porcent {
     gap: 10px;
   }
-  .lang-skill {
-  }
   .skills {
     max-width: 200px;
     padding: 15px 20px;
@@ -284,7 +281,7 @@
     max-width: 200px;
     padding: 15px 20px 12px;
   }
-  .me-links-ul{
+  .me-links-ul {
     gap: 10px;
   }
   .me-links-a {
@@ -293,15 +290,13 @@
     border-radius: 100%;
     display: flex;
   }
-  .me-links-icons{
+  .me-links-icons {
     display: inline-table;
   }
   .download-cv {
     max-width: 130px;
-    padding:8px 40px;
+    padding: 8px 40px;
     margin: 10px auto 30px;
-  }
-  .download-cv:hover {
   }
   .download-h4 {
     font-size: 10px;
@@ -309,8 +304,6 @@
   .download-icon {
     width: 20px;
     height: 20px;
-  }
-  .about-education-experience {
   }
   .about-me {
     max-width: 500px;
@@ -341,8 +334,8 @@
   }
   .education-container-header,
   .experience-container-header {
-    padding: 0 25px 10px ;
-    position: relative  ;
+    padding: 0 25px 10px;
+    position: relative;
   }
   .education-h3-period,
   .experience-h3-period {
@@ -369,7 +362,7 @@
     gap: 3px;
     margin-top: 5px;
     margin-bottom: 0;
-    line-height: 10px;
+    line-height: 15px;
     color: #00000090;
   }
   .education-tecnologies-span,
@@ -384,7 +377,8 @@
     right: 5px;
     top: 17px;
   }
-  .education-img img, .experience-img img {
+  .education-img img,
+  .experience-img img {
     width: 25px;
     height: 25px;
   }
@@ -393,8 +387,6 @@
     margin-bottom: 0;
     color: #00000090;
   }
-  .experience-img {
-}
 }
 
 @media (min-width: 1024px) {
