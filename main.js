@@ -18,3 +18,16 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+  //cierra el toggle cuando se aprieta un enlace de seccion en modo celu y tablet
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.list');
+    const menuLinks = document.querySelectorAll('.toggle a');
+  
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        menuToggle.checked = false; // Desmarca el checkbox
+      });
+    });
+  });
+  
