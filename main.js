@@ -66,3 +66,48 @@ window.addEventListener('scroll', highlightNavLink);
 highlightNavLink();
 
 
+//Language selector 
+let currentLanguage = 'es';
+
+    function toggleLanguage() {
+        currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+        document.getElementById('language-toggle').innerText = currentLanguage.toUpperCase();
+
+        const elementsEs = document.querySelectorAll('[data-lang="es"]');
+        const elementsEn = document.querySelectorAll('[data-lang="en"]');
+
+        if (currentLanguage === 'es') {
+            elementsEs.forEach(el => el.style.display = 'block');
+            elementsEn.forEach(el => el.style.display = 'none');
+        } else {
+            elementsEs.forEach(el => el.style.display = 'none');
+            elementsEn.forEach(el => el.style.display = 'block');
+        }
+    }
+
+    // Función para verificar si un elemento es visible
+    function isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    // Función para manejar el scroll
+    function onScroll() {
+        const sections = document.querySelectorAll('.scroll-animation');
+        sections.forEach(section => {
+            if (isElementInViewport(section)) {
+                section.classList.add('visible');
+            }
+        });
+    }
+
+    // Agrega el evento de scroll
+    window.addEventListener('scroll', onScroll);
+
+    // Ejecuta la función al cargar la página
+    onScroll();

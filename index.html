@@ -15,186 +15,372 @@
 </head>
 <body>
     <!-- Header -->
-     <header>
-        <nav class="navbar">
-            <h2 class="h2-navbar">Tomás</h2>
-            <div class="nav-section">
-                <a href="#home" class="nav-activate">Inicio</a>
-                <a href="#about" class="nav-activate">Sobre Mi</a>
-                <a href="#proyects" class="nav-activate">Proyectos</a>
-                <a href="#contact" class="nav-activate">Contacto</a>
-            </div>
-            <div class="nav-links">
-                <a href="https://github.com/tomikorzu" target="_blank"><i class="fa-brands fa-github fa-lg icons-navbar"></i></a>
-                <a href="https://www.linkedin.com/in/tomas-korzusehec/" target="_blank"><i class="fa-brands fa-linkedin fa-lg icons-navbar"></i></a>
-                <a href=" https://w.app/RDtQo5" target="_blank"><i class="fa-brands fa-whatsapp fa-lg icons-navbar"></i></a>
+     <div data-lang="es">
+        <header>
+           <nav class="navbar">
+               <h2 class="h2-navbar">Tomás</h2>
+               <div class="nav-section">
+                   <a href="#home" class="nav-activate">Inicio</a>
+                   <a href="#about" class="nav-activate">Sobre Mi</a>
+                   <a href="#proyects" class="nav-activate">Proyectos</a>
+                   <a href="#contact" class="nav-activate">Contacto</a>
+               </div>
+               <div class="nav-links">
+                   <a href="https://github.com/tomikorzu" target="_blank"><i class="fa-brands fa-github fa-lg icons-navbar"></i></a>
+                   <a href="https://www.linkedin.com/in/tomas-korzusehec/" target="_blank"><i class="fa-brands fa-linkedin fa-lg icons-navbar"></i></a>
+                   <a href=" https://w.app/RDtQo5" target="_blank"><i class="fa-brands fa-whatsapp fa-lg icons-navbar"></i></a>
+                   <button id="language-toggle" class="language-toggle-button" onclick="toggleLanguage()">EN</button>
+               </div>
+               <div class="nav-section-mobile">
+                   <input type="checkbox" class="list">
+                   <div class="lines">
+                       <span class="line line1"></span>
+                       <span class="line line2"></span>
+                       <span class="line line3"></span>
+                   </div>
+                   <div class="toggle">
+                       <a href="#home" class="nav-activate">Inicio</a>
+                       <a href="#about" class="nav-activate">Sobre Mi</a>
+                       <a href="#proyects" class="nav-activate">Proyectos</a>
+                       <a href="#contact" class="nav-activate">Contacto</a>
+                   </div>
+               </div>
+           </nav>
+        </header>
 
-            </div>
-            <div class="nav-section-mobile">
-                <input type="checkbox" class="list">
-                <div class="lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <div class="toggle">
-                    <a href="#home" class="nav-activate">Inicio</a>
-                    <a href="#about" class="nav-activate">Sobre Mi</a>
-                    <a href="#proyects" class="nav-activate">Proyectos</a>
-                    <a href="#contact" class="nav-activate">Contacto</a>
-                </div>
-            </div>
-        </nav>
-     </header>
-
-     <!-- Main -->
-    
-     <main>
-        <!-- HOME -->
-        <section id="home">
-            <h1 class="h1-home" data-aos="fade-in">Tomás Korzusehec</h1>
-            <p class="p-home" data-aos="fade-in">Desarrollador front-end</p>
-            <a href="#proyects" class="a-home" data-aos="fade-in">Mis proyectos</a>
-        </section>
-
-        <!-- ABOUT -->
-        <section id="about">
-            <div class="personal-info">
-                <div class="personal-data">
-                    <div class="personal-div">
-                        <i class="fa-solid fa-envelope fa-xs personal-icons"></i>
-                        <span class="personal-content">tomykorzu@icloud.com</span>
-                    </div>
-                    <div class="personal-div">
-                        <i class="fa-solid fa-phone fa-xs personal-icons"></i>
-                        <span class="personal-content">(+54 9) 11 6950-7558</span>
-                    </div>
-                    <div class="personal-div">
-                        <i class="fa-solid fa-location-dot fa-xs personal-icons"></i>
-                        <span class="personal-content">Barracas, CABA</span>
-                    </div>
-                    <div class="personal-div">
-                        <i class="fa-solid fa-cake-candles fa-xs personal-icons"></i>
-                        <span class="personal-content">13/12/2005</span>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h2 class="h2-languages-skills">Conocimientos</h2>
-                    <div class="lang-skill-container">
-                        <div class="lang-skill-porcent">
-                            <div class="lang-skill">HTML</div>
-                            <div class="lang-skill">CSS</div>
-                        </div>
-                        <div class="lang-skill-porcent">
-                            <div class="porcent">JavaScript</div>
-                            <div class="porcent">GIT</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="languages">
-                    <h2 class="h2-languages-skills">Idiomas</h2>
-                    <div class="lang-skill-container">
-                        <div class="lang-skill-porcent">
-                            <div class="lang-skill">Español</div>
-                            <div class="lang-skill">Ingles</div>
-                        </div>
-                        <div class="lang-skill-porcent">
-                            <div class="porcent">Nativo</div>
-                            <div class="porcent">Intermedio(B2)</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="me">
-                    <ul class="me-links-ul">
-                        <li><a href="https://wa.me/1169507558" class="me-links-a" target="_blank"><i class="fa-brands fa-whatsapp me-links-icons"></i></a></li>
-                        <li><a href="mailto:tomykorzu@icloud.com" class="me-links-a" target="_blank"><i class="fa-solid fa-envelope me-links-icons"></i></a></li>
-                        <li><a href="https://github.com/tomikorzu" class="me-links-a" target="_blank"><i class="fa-brands fa-github me-links-icons"></i></a></li>
-                        <li><a href="https://ar.linkedin.com/in/tomas-korzusehec-a610b12b3" class="me-links-a" target="_blank"><i class="fa-brands fa-linkedin-in me-links-icons"></i></a></li>
-                    </ul>
-                </div>
-                <a class="download-cv" href="img/yo.png" download>
-                    <h4 class="download-h4">descargar cv</h4>
-                    <img class="download-icon" src="svg/download.svg" alt="download-icon">
-                </a>
-            </div>
-            <div class="about-education-experience" >
-                <div class="about-me">
-                    <h2 class="h2-about">Sobre Mí</h2>
-                    <p class="p-about">
-                        Soy un apasionado del diseño y desarrollo web. Me encanta crear sitios funcionales y estéticamente atractivos, y siempre estoy en busca de aprender nuevas tecnologías para mejorar mis habilidades y ofrecer un mejor servicio.</p>
-                    <h3 class="h3-about">Objetivo Profesional</h3>
-                    <p class="p-about">Me gustaría participar en proyectos que me profesionalicen como programador mientras que continúo con mis estudios.</p>
-                </dv>
-                <div class="education">
-                    <h2 class="h2-about">Educación</h2>
-                    <div class="education-container">
-                        <div class="education-container-header">
-                            <div class="education-h3-period">
-                                <h3 class="h3-about">Instituto Huergo</h3>
-                                <span class="period">2019 - Actualidad</span>
-                            </div>
-                            <h4 class="h4-about">Técnico en informática</h4>
-                            <div class="education-img" ><img src="img/huergo.png" alt="Huergo-img"></div>
-                        </div>
-                        <div class="education-container-content">
-                            <h5 class="h5-about">Tareas Realizadas</h5>
-                            <ul class="experience-tasks-ul">
-                                <li><span class="experience-tasks-span">Resolucion de problemas, desarrollo de videojuegos y paginas web, manejo de base de datos y ediciones de imagenes.</span></li>
-                            </ul>
-                            <h5 class="h5-about">Tecnologías Usadas</h5>
-                            <ul class="education-tecnologies-ul">
-                                <li><span class="education-tecnologies-span">Python - </span></li>
-                                <li><span class="education-tecnologies-span"> HTML - </span></li>
-                                <li><span class="education-tecnologies-span">CSS - </span></li>
-                                <li><span class="education-tecnologies-span">MySQL - </span></li>
-                                <li><span class="education-tecnologies-span">Git - </span></li>
-                                <li><span class="education-tecnologies-span">C# - </span></li>
-                                <li><span class="education-tecnologies-span">ASP.NET - </span></li>
-                                <li><span class="education-tecnologies-span">Visual Basic</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="experience">
-                    <h2 class="h2-about">Experiencia Laboral</h2>
-                    <div class="experience-container">
-                        <div class="experience-container-header">
-                            <div class="experience-h3-period">
-                                <h3 class="h3-about">GM2DEV</h3>
-                                <span class="period">Jun 2024 - Actualidad</span>
-                            </div>
-                            <h4 class="h4-about">Pasantía en desarrollo Front-End</h4>
-                            <div class="experience-img" ><img src="img/gm2.jpg" alt="Huergo-img"></div>
-                        </div>
-                        <div class="experience-container-content">
-                            <h5 class="h5-about">Tareas Realizadas</h5>
-                            <ul class="experience-tasks-ul">
-                                    <li><span class="experience-tasks-span">Desarrollo de páginas web, aprendizaje de Git y GitHub para control de repositorios y trabajo en equipo y uso de FrameWorks como React.</span></li>
-                            </ul>
-                            <h5 class="h5-about">Tecnologías Usadas</h5>
-                            <ul class="experience-tecnologies-ul">
-                                <li><span class="experience-tecnologies-span">HTML - </span></li>
-                                <li><span class="experience-tecnologies-span">CSS -</span></li>
-                                <li><span class="experience-tecnologies-span">GIT -</span></li>
-                                <li><span class="experience-tecnologies-span">JavaScript</span></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Main -->
         
-        <!-- Proyects -->
-        <section id="proyects">
-        </section>
-     </main>
+        <main>
+           <!-- HOME -->
+           <section id="home">
+               <h1 class="h1-home" data-aos="fade-in">Tomás Korzusehec</h1>
+               <p class="p-home" data-aos="fade-in">Desarrollador front-end</p>
+               <a href="#proyects" class="a-home" data-aos="fade-in">Mis proyectos</a>
+           </section>
 
-     <!-- footer -->
-     <footer id="contact">
+           <!-- ABOUT -->
+           <section id="about">
+               <div class="personal-info">
+                   <div class="personal-data">
+                       <div class="personal-div">
+                           <i class="fa-solid fa-envelope fa-xs personal-icons"></i>
+                           <span class="personal-content">tomykorzu@icloud.com</span>
+                       </div>
+                       <div class="personal-div">
+                           <i class="fa-solid fa-phone fa-xs personal-icons"></i>
+                           <span class="personal-content">(+54 9) 11 6950-7558</span>
+                       </div>
+                       <div class="personal-div">
+                           <i class="fa-solid fa-location-dot fa-xs personal-icons"></i>
+                           <span class="personal-content">Barracas, CABA</span>
+                       </div>
+                       <div class="personal-div">
+                           <i class="fa-solid fa-cake-candles fa-xs personal-icons"></i>
+                           <span class="personal-content">13/12/2005</span>
+                       </div>
+                   </div>
+                   <div class="skills">
+                       <h2 class="h2-languages-skills">Conocimientos</h2>
+                       <div class="lang-skill-container">
+                           <div class="lang-skill-porcent">
+                               <div class="lang-skill">HTML</div>
+                               <div class="lang-skill">CSS</div>
+                           </div>
+                           <div class="lang-skill-porcent">
+                               <div class="porcent">JavaScript</div>
+                               <div class="porcent">GIT</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="languages">
+                       <h2 class="h2-languages-skills">Idiomas</h2>
+                       <div class="lang-skill-container">
+                           <div class="lang-skill-porcent">
+                               <div class="lang-skill">Español</div>
+                               <div class="lang-skill">Ingles</div>
+                           </div>
+                           <div class="lang-skill-porcent">
+                               <div class="porcent">Nativo</div>
+                               <div class="porcent">Intermedio(B2)</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="me">
+                       <ul class="me-links-ul">
+                           <li><a href="https://wa.me/1169507558" class="me-links-a" target="_blank"><i class="fa-brands fa-whatsapp me-links-icons"></i></a></li>
+                           <li><a href="mailto:tomykorzu@icloud.com" class="me-links-a" target="_blank"><i class="fa-solid fa-envelope me-links-icons"></i></a></li>
+                           <li><a href="https://github.com/tomikorzu" class="me-links-a" target="_blank"><i class="fa-brands fa-github me-links-icons"></i></a></li>
+                           <li><a href="https://ar.linkedin.com/in/tomas-korzusehec-a610b12b3" class="me-links-a" target="_blank"><i class="fa-brands fa-linkedin-in me-links-icons"></i></a></li>
+                       </ul>
+                   </div>
+                   <a class="download-cv" href="img/yo.png" download>
+                       <h4 class="download-h4">descargar cv</h4>
+                       <img class="download-icon" src="svg/download.svg" alt="download-icon">
+                   </a>
+               </div>
+               <div class="about-education-experience" >
+                   <div class="about-me">
+                       <h2 class="h2-about">Sobre Mí</h2>
+                       <p class="p-about">
+                           Soy un apasionado del diseño y desarrollo web. Me encanta crear sitios funcionales y estéticamente atractivos, y siempre estoy en busca de aprender nuevas tecnologías para mejorar mis habilidades y ofrecer un mejor servicio.</p>
+                       <h3 class="h3-about">Objetivo Profesional</h3>
+                       <p class="p-about">Me gustaría participar en proyectos que me profesionalicen como programador mientras que continúo con mis estudios.</p>
+                   </dv>
+                   <div class="education">
+                       <h2 class="h2-about">Educación</h2>
+                       <div class="education-container">
+                           <div class="education-container-header">
+                               <div class="education-h3-period">
+                                   <h3 class="h3-about">Instituto Huergo</h3>
+                                   <span class="period">2019 - Actualidad</span>
+                               </div>
+                               <h4 class="h4-about">Técnico en informática</h4>
+                               <div class="education-img" ><img src="img/huergo.png" alt="Huergo-img"></div>
+                           </div>
+                           <div class="education-container-content">
+                               <h5 class="h5-about">Tareas Realizadas</h5>
+                               <ul class="experience-tasks-ul">
+                                   <li><span class="experience-tasks-span">Resolucion de problemas, desarrollo de videojuegos y paginas web, manejo de base de datos y ediciones de imagenes.</span></li>
+                               </ul>
+                               <h5 class="h5-about">Tecnologías Usadas</h5>
+                               <ul class="education-tecnologies-ul">
+                                   <li><span class="education-tecnologies-span">Python - </span></li>
+                                   <li><span class="education-tecnologies-span"> HTML - </span></li>
+                                   <li><span class="education-tecnologies-span">CSS - </span></li>
+                                   <li><span class="education-tecnologies-span">MySQL - </span></li>
+                                   <li><span class="education-tecnologies-span">Git - </span></li>
+                                   <li><span class="education-tecnologies-span">C# - </span></li>
+                                   <li><span class="education-tecnologies-span">ASP.NET - </span></li>
+                                   <li><span class="education-tecnologies-span">Visual Basic</span></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="experience">
+                       <h2 class="h2-about">Experiencia Laboral</h2>
+                       <div class="experience-container">
+                           <div class="experience-container-header">
+                               <div class="experience-h3-period">
+                                   <h3 class="h3-about">GM2DEV</h3>
+                                   <span class="period">Jun 2024 - Actualidad</span>
+                               </div>
+                               <h4 class="h4-about">Pasantía en desarrollo Front-End</h4>
+                               <div class="experience-img" ><img src="img/gm2.jpg" alt="Huergo-img"></div>
+                           </div>
+                           <div class="experience-container-content">
+                               <h5 class="h5-about">Tareas Realizadas</h5>
+                               <ul class="experience-tasks-ul">
+                                       <li><span class="experience-tasks-span">Desarrollo de páginas web, aprendizaje de Git y GitHub para control de repositorios y trabajo en equipo y uso de FrameWorks como React.</span></li>
+                               </ul>
+                               <h5 class="h5-about">Tecnologías Usadas</h5>
+                               <ul class="experience-tecnologies-ul">
+                                   <li><span class="experience-tecnologies-span">HTML - </span></li>
+                                   <li><span class="experience-tecnologies-span">CSS -</span></li>
+                                   <li><span class="experience-tecnologies-span">GIT -</span></li>
+                                   <li><span class="experience-tecnologies-span">JavaScript</span></li>
+                               </ul>
 
-     </footer>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
 
+           <!-- Proyects -->
+           <section id="proyects">
+           </section>
+        </main>
+
+        <!-- footer -->
+        <footer id="contact">
+
+        </footer>
+     </div>
+     <!-- English language -->
+     <div data-lang="en" style="display: none;">
+        <header>
+            <nav class="navbar">
+                <h2 class="h2-navbar">Tomás</h2>
+                <div class="nav-section">
+                    <a href="#home" class="nav-activate">Home</a>
+                    <a href="#about" class="nav-activate">About Me</a>
+                    <a href="#proyects" class="nav-activate">Proyects</a>
+                    <a href="#contact" class="nav-activate">Contact</a>
+                </div>
+                <div class="nav-links">
+                    <a href="https://github.com/tomikorzu" target="_blank"><i class="fa-brands fa-github fa-lg icons-navbar"></i></a>
+                    <a href="https://www.linkedin.com/in/tomas-korzusehec/" target="_blank"><i class="fa-brands fa-linkedin fa-lg icons-navbar"></i></a>
+                    <a href=" https://w.app/RDtQo5" target="_blank"><i class="fa-brands fa-whatsapp fa-lg icons-navbar"></i></a>
+                    <button id="language-toggle" class="language-toggle-button" onclick="toggleLanguage()">ES</button>
+                </div>
+                <div class="nav-section-mobile">
+                    <input type="checkbox" class="list">
+                    <div class="lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="toggle">
+                        <a href="#home" class="nav-activate">Home</a>
+                        <a href="#about" class="nav-activate">About Me</a>
+                        <a href="#proyects" class="nav-activate">Proyects</a>
+                        <a href="#contact" class="nav-activate">Contact</a>
+                    </div>
+                </div>
+            </nav>
+         </header>
+ 
+         <!-- Main -->
+         
+         <main>
+            <!-- HOME -->
+            <section id="home">
+                <h1 class="h1-home" data-aos="fade-in">Tomás Korzusehec</h1>
+                <p class="p-home" data-aos="fade-in">Front-end Developer</p>
+                <a href="#proyects" class="a-home" data-aos="fade-in">My proyects</a>
+            </section>
+ 
+            <!-- ABOUT -->
+            <section id="about">
+                <div class="personal-info">
+                    <div class="personal-data">
+                        <div class="personal-div">
+                            <i class="fa-solid fa-envelope fa-xs personal-icons"></i>
+                            <span class="personal-content">tomykorzu@icloud.com</span>
+                        </div>
+                        <div class="personal-div">
+                            <i class="fa-solid fa-phone fa-xs personal-icons"></i>
+                            <span class="personal-content">(+54 9) 11 6950-7558</span>
+                        </div>
+                        <div class="personal-div">
+                            <i class="fa-solid fa-location-dot fa-xs personal-icons"></i>
+                            <span class="personal-content">Barracas, CABA</span>
+                        </div>
+                        <div class="personal-div">
+                            <i class="fa-solid fa-cake-candles fa-xs personal-icons"></i>
+                            <span class="personal-content">13/12/2005</span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2 class="h2-languages-skills">Skills</h2>
+                        <div class="lang-skill-container">
+                            <div class="lang-skill-porcent">
+                                <div class="lang-skill">HTML</div>
+                                <div class="lang-skill">CSS</div>
+                            </div>
+                            <div class="lang-skill-porcent">
+                                <div class="porcent">JavaScript</div>
+                                <div class="porcent">GIT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <h2 class="h2-languages-skills">languages</h2>
+                        <div class="lang-skill-container">
+                            <div class="lang-skill-porcent">
+                                <div class="lang-skill">Spanish</div>
+                                <div class="lang-skill">English</div>
+                            </div>
+                            <div class="lang-skill-porcent">
+                                <div class="porcent">Native</div>
+                                <div class="porcent">Intermediate(B2)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me">
+                        <ul class="me-links-ul">
+                            <li><a href="https://wa.me/1169507558" class="me-links-a" target="_blank"><i class="fa-brands fa-whatsapp me-links-icons"></i></a></li>
+                            <li><a href="mailto:tomykorzu@icloud.com" class="me-links-a" target="_blank"><i class="fa-solid fa-envelope me-links-icons"></i></a></li>
+                            <li><a href="https://github.com/tomikorzu" class="me-links-a" target="_blank"><i class="fa-brands fa-github me-links-icons"></i></a></li>
+                            <li><a href="https://ar.linkedin.com/in/tomas-korzusehec-a610b12b3" class="me-links-a" target="_blank"><i class="fa-brands fa-linkedin-in me-links-icons"></i></a></li>
+                        </ul>
+                    </div>
+                    <a class="download-cv" href="img/yo.png" download>
+                        <h4 class="download-h4">download cv</h4>
+                        <img class="download-icon" src="svg/download.svg" alt="download-icon">
+                    </a>
+                </div>
+                <div class="about-education-experience" >
+                    <div class="about-me">
+                        <h2 class="h2-about">About me</h2>
+                        <p class="p-about">
+                            I am passionate about web design and development. I love creating functional and aesthetically appealing sites, and I'm always looking to learn new technologies to improve my skills and offer a better service.</p>
+                        <h3 class="h3-about">Professional objective</h3>
+                        <p class="p-about">I would like to participate in projects that professionalize me as a programmer while I continue with my studies.
+                        </p>
+                    </dv>
+                    <div class="education">
+                        <h2 class="h2-about">Education</h2>
+                        <div class="education-container">
+                            <div class="education-container-header">
+                                <div class="education-h3-period">
+                                    <h3 class="h3-about">Huergo Institute</h3>
+                                    <span class="period">2019 - Present</span>
+                                </div>
+                                <h4 class="h4-about">IT technician</h4>
+                                <div class="education-img" ><img src="img/huergo.png" alt="Huergo-img"></div>
+                            </div>
+                            <div class="education-container-content">
+                                <h5 class="h5-about">Completed tasks</h5>
+                                <ul class="experience-tasks-ul">
+                                    <li><span class="experience-tasks-span">Problem solving, video game and web page development, database management and image editing.
+                                    </span></li>
+                                </ul>
+                                <h5 class="h5-about">Tecnologies used</h5>
+                                <ul class="education-tecnologies-ul">
+                                    <li><span class="education-tecnologies-span">Python - </span></li>
+                                    <li><span class="education-tecnologies-span"> HTML - </span></li>
+                                    <li><span class="education-tecnologies-span">CSS - </span></li>
+                                    <li><span class="education-tecnologies-span">MySQL - </span></li>
+                                    <li><span class="education-tecnologies-span">Git - </span></li>
+                                    <li><span class="education-tecnologies-span">C# - </span></li>
+                                    <li><span class="education-tecnologies-span">ASP.NET - </span></li>
+                                    <li><span class="education-tecnologies-span">Visual Basic</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <h2 class="h2-about">Work experience</h2>
+                        <div class="experience-container">
+                            <div class="experience-container-header">
+                                <div class="experience-h3-period">
+                                    <h3 class="h3-about">GM2DEV</h3>
+                                    <span class="period">Jun 2024 - Present</span>
+                                </div>
+                                <h4 class="h4-about">Internship in Front-End Development</h4>
+                                <div class="experience-img" ><img src="img/gm2.jpg" alt="Huergo-img"></div>
+                            </div>
+                            <div class="experience-container-content">
+                                <h5 class="h5-about">Completed tasks</h5>
+                                <ul class="experience-tasks-ul">
+                                        <li><span class="experience-tasks-span">Development of web pages, learning Git and GitHub for repository control and teamwork and use of FrameWorks such as React.
+                                        </span></li>
+                                </ul>
+                                <h5 class="h5-about">Tecnologies used</h5>
+                                <ul class="experience-tecnologies-ul">
+                                    <li><span class="experience-tecnologies-span">HTML - </span></li>
+                                    <li><span class="experience-tecnologies-span">CSS -</span></li>
+                                    <li><span class="experience-tecnologies-span">GIT -</span></li>
+                                    <li><span class="experience-tecnologies-span">JavaScript</span></li>
+                                </ul>
+ 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
+            <!-- Proyects -->
+            <section id="proyects">
+            </section>
+         </main>
+ 
+         <!-- footer -->
+         <footer id="contact">
+ 
+         </footer>
+     </div>
      <script src="main.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
      <script>// AOS
