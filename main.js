@@ -67,47 +67,33 @@ highlightNavLink();
 
 
 //Language selector 
-let currentLanguage = 'es';
+// JavaScript para cambiar entre español e inglés
+function toggleLanguage() {
+    var currentLang = document.documentElement.lang;
 
-    function toggleLanguage() {
-        currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
-        document.getElementById('language-toggle').innerText = currentLanguage.toUpperCase();
-
-        const elementsEs = document.querySelectorAll('[data-lang="es"]');
-        const elementsEn = document.querySelectorAll('[data-lang="en"]');
-
-        if (currentLanguage === 'es') {
-            elementsEs.forEach(el => el.style.display = 'block');
-            elementsEn.forEach(el => el.style.display = 'none');
-        } else {
-            elementsEs.forEach(el => el.style.display = 'none');
-            elementsEn.forEach(el => el.style.display = 'block');
-        }
-    }
-
-    // Función para verificar si un elemento es visible
-    function isElementInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    // Función para manejar el scroll
-    function onScroll() {
-        const sections = document.querySelectorAll('.scroll-animation');
-        sections.forEach(section => {
-            if (isElementInViewport(section)) {
-                section.classList.add('visible');
-            }
+    // Si el idioma actual es español, cambia a inglés
+    if (currentLang === 'es') {
+        document.documentElement.lang = 'en';
+        // Oculta los elementos en español y muestra los elementos en inglés
+        document.querySelectorAll('[data-lang="es"]').forEach(function(el) {
+            el.style.display = 'none';
         });
+        document.querySelectorAll('[data-lang="en"]').forEach(function(el) {
+            el.style.display = 'block';
+        });
+        // Cambia el texto del botón a 'ES'
+        document.getElementById('language-toggle').textContent = 'ES';
+    } else {
+        // Si el idioma actual no es español (suponemos que es inglés), cambia a español
+        document.documentElement.lang = 'es';
+        // Oculta los elementos en inglés y muestra los elementos en español
+        document.querySelectorAll('[data-lang="en"]').forEach(function(el) {
+            el.style.display = 'none';
+        });
+        document.querySelectorAll('[data-lang="es"]').forEach(function(el) {
+            el.style.display = 'block';
+        });
+        // Cambia el texto del botón a 'EN'
+        document.getElementById('language-toggle').textContent = 'EN';
     }
-
-    // Agrega el evento de scroll
-    window.addEventListener('scroll', onScroll);
-
-    // Ejecuta la función al cargar la página
-    onScroll();
+}

@@ -16,6 +16,23 @@ header {
   box-sizing: border-box;
   background-color: #363636;
 }
+.language-toggle-button{
+  appearance: none;
+  border: none;
+  background-color: #1f5297;
+  border-radius: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 1;
+}
+.language-toggle-button:hover{
+  background-color: #092e61;
+  transition: .4s;
+}
 .h2-navbar {
   color: #e2e2e2;
   font-family: "Playwrite IS", cursive;
@@ -115,6 +132,7 @@ header {
 }
 .list:checked ~ .toggle {
   transform: translateY(5%);
+  box-shadow: 0 0 500px 100px #00000080;
 }
 .list:checked ~ .lines .line1 {
   transform: rotate(45deg);
