@@ -32,5 +32,38 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
 
+  // Obtener todos los enlaces de navegación
+const navLinks = document.querySelectorAll('.nav-activate');
+
+// Función para verificar qué sección está visible y aplicar la clase active
+function highlightNavLink() {
+    navLinks.forEach(link => {
+        const sectionId = link.getAttribute('href').slice(1); // Obtener el id de la sección
+        const section = document.getElementById(sectionId); // Obtener la sección correspondiente
+
+        // Verificar si la sección está visible en la pantalla
+        if (isElementVisible(section)) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+}
+
+// Función para verificar si un elemento está visible en la pantalla
+function isElementVisible(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+}
+
+// Escuchar el evento scroll para llamar a highlightNavLink()
+window.addEventListener('scroll', highlightNavLink);
+
+// Llamar a highlightNavLink() una vez al cargar la página para establecer el estado inicial
+highlightNavLink();
+
 
   

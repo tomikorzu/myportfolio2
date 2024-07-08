@@ -36,6 +36,16 @@ header {
   color: #34b7a7;
   transition: .4s;
 }
+/* .nav-activate {
+  color: #b9b9b9;
+  padding: 0 10px;
+  transition: color 0.4s;
+}
+
+.nav-activate:hover,
+.nav-activate.active {
+  color: #34b7a7;
+} */
 .list {
   position: relative;
   display: block;
