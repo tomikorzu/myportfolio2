@@ -1,6 +1,6 @@
 #home {
   height: 100vh;
-  background: url(../img/yo.png) center / cover fixed;
+  background: url(../img/yo.png) center / cover no-repeat fixed;
   z-index: -3;
   display: flex;
   align-items: center;
@@ -8,6 +8,7 @@
   flex-direction: column;
   max-width: 1800px;
   margin: auto;
+  background-attachment: scroll;
 }
 .h1-home {
   font-size: 28px;
