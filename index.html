@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="sections-css/about.css">
     <link rel="stylesheet" href="sections-css/proyects.css">
     <link rel="stylesheet" href="sections-css/contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 <body>
     <!-- Header -->
@@ -50,9 +52,9 @@
      <main>
         <!-- HOME -->
         <section id="home">
-            <h1 class="h1-home">Tomás Korzusehec</h1>
-            <p class="p-home">Desarrollador front-end</p>
-            <a href="#proyects" class="a-home">Mis proyectos</a>
+            <h1 class="h1-home" data-aos="fade-in">Tomás Korzusehec</h1>
+            <p class="p-home" data-aos="fade-in">Desarrollador front-end</p>
+            <a href="#proyects" class="a-home" data-aos="fade-in">Mis proyectos</a>
         </section>
 
         <!-- ABOUT -->
@@ -115,7 +117,7 @@
                     <img class="download-icon" src="svg/download.svg" alt="download-icon">
                 </a>
             </div>
-            <div class="about-education-experience">
+            <div class="about-education-experience" >
                 <div class="about-me">
                     <h2 class="h2-about">Sobre Mí</h2>
                     <p class="p-about">
@@ -194,5 +196,11 @@
      </footer>
 
      <script src="main.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+     <script>// AOS
+        AOS.init({
+            duration: 2000, // Duración de las animaciones en milisegundos
+            once: true // Si las animaciones deben ejecutarse solo una vez
+        });</script>
 </body>
 </html>

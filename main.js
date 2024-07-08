@@ -66,4 +66,3 @@ window.addEventListener('scroll', highlightNavLink);
 highlightNavLink();
 
 
-  
