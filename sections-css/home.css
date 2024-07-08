@@ -1,4 +1,4 @@
-#home {
+.home {
   height: 100vh;
   background: url(../img/yo.png) center / cover no-repeat fixed;
   z-index: -3;
