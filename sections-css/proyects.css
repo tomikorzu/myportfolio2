@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 .separator {
   border: 2px solid #003e37;
@@ -24,7 +25,7 @@
   font-size: 14px;
   color: #00000090;
   font-weight: 500;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 .proyects-container {
 }
