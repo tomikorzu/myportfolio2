@@ -100,7 +100,7 @@
   text-align: start;
 }
 .proyect-link-container{
-    padding: 10px 0 0 ;
+    padding: 15px 0 0 ;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -118,7 +118,12 @@
 }
 
 @media (min-width: 768px) {
+    .separator{
+        display: none;
+    }
   .proyects {
+    max-width: 100%;
+    padding: 0 20px 30px;
   }
   .h2-proyects {
   }
@@ -127,8 +132,11 @@
   .proyects-container {
   }
   .proyect-row {
+    flex-direction: row;
+    justify-content: center;
   }
   .proyect {
+    width: 50%;
   }
   .img-project {
   }
