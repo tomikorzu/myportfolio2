@@ -30,14 +30,9 @@
 .proyects-container {
 }
 .proyect-row {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 20px;
-}
-.proyect-row-container-1{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  grid-template-columns: 1fr; 
 }
 .proyect {
   box-shadow: 0 0 10px 5px #00000020;
@@ -122,10 +117,10 @@
   text-align: start;
 }
 .proyect-link-container{
-    padding: 15px 0 0 ;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  padding: 15px 0 0 ;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 .proyect-link {
   padding: 5px 12.5px;
@@ -135,53 +130,41 @@
   font-size: 12px;
 }
 .proyect-link:hover{
-    transition: 0.5s;
+  transition: 0.5s;
   background-color: #2adbc7;
 }
 
 @media (min-width: 768px) {
     .separator{
-        display: none;
+      display: none;
     }
-  .proyects {
-    max-width: 100%;
-    padding: 0 20px 30px;
-  }
-  .h2-proyects {
-  }
-  .p-proyects {
-    width: 100%;
-  }
-  .proyects-container {
-  }
-  .proyect-row {
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-  }
-  .proyect-row-container-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .proyect-row-container-2{
-    display: flex;
-    justify-content: center;
-  }
-  .proyect {
-    width: 45%;
-    margin: 0 5px;
-  }
-  .img-project {
-  }
-  .content-proyect {
-  }
-  .header-content-project {
-  }
-  .left-header-content-proyect {
-  }
-  .h3-title-proyect {
-  }
+    .proyects {
+      max-width: 100%;
+      padding: 0 20px 30px;
+    }
+    .h2-proyects {
+    }
+    .p-proyects {
+      width: 100%;
+    }
+    .proyects-container {
+    }
+    .proyect-row {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    .proyect {
+      margin: 10px;
+    }
+    .img-project {
+    }
+    .content-proyect {
+    }
+    .header-content-project {
+    }
+    .left-header-content-proyect {
+    }
+    .h3-title-proyect {
+    }
   .author-time {
   }
   .author {
@@ -217,16 +200,7 @@
   .proyects-container {
   }
   .proyect-row {
-    flex-direction: row;
-  }
-  .proyect-row-container-1{
-    
-  }
-  .proyect-row-container-2{
-    display: none;
-  }
-  .laptop{
-    display: block;
+    grid-template-columns: repeat(3, 1fr); 
   }
   .proyect {
     max-width: 450px;
