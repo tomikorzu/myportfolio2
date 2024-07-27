@@ -1,9 +1,90 @@
-
+.contact {
+}
+.h2-footer {
+}
+.p-footer {
+}
+.form-footer {
+}
+.name-footer {
+}
+.name-footer::placeholder {
+}
+.email-footer {
+}
+.email-footer::placeholder {
+}
+.asunto-footer {
+}
+.asunto-footer::placeholder {
+}
+.message-footer {
+}
+.message-footer::placeholder {
+}
+.btn-submit {
+}
+.p-copyright {
+}
 
 @media (min-width: 768px) {
-    
+  .contact {
+  }
+  .h2-footer {
+  }
+  .p-footer {
+  }
+  .form-footer {
+  }
+  .name-footer {
+  }
+  .name-footer::placeholder {
+  }
+  .email-footer {
+  }
+  .email-footer::placeholder {
+  }
+  .asunto-footer {
+  }
+  .asunto-footer::placeholder {
+  }
+  .message-footer {
+  }
+  .message-footer::placeholder {
+  }
+  .btn-submit {
+  }
+  .p-copyright {
+  }
 }
 
 @media (min-width: 1024px) {
-    
+  .contact {
+  }
+  .h2-footer {
+  }
+  .p-footer {
+  }
+  .form-footer {
+  }
+  .name-footer {
+  }
+  .name-footer::placeholder {
+  }
+  .email-footer {
+  }
+  .email-footer::placeholder {
+  }
+  .asunto-footer {
+  }
+  .asunto-footer::placeholder {
+  }
+  .message-footer {
+  }
+  .message-footer::placeholder {
+  }
+  .btn-submit {
+  }
+  .p-copyright {
+  }
 }
