@@ -120,6 +120,7 @@
   }
   .message-footer {
     height: 65px;
+    resize: none;
   }
   .btn-submit {
     padding: 12px;
