@@ -98,6 +98,11 @@
   color: #f8f41c;
   position: relative;
 }
+.php{
+  color: #000;
+  font-size: 1.25em;
+  
+}
 .tech-js::after{
   content: '';
   top: 2px;
